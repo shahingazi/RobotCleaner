@@ -128,5 +128,26 @@ namespace RobotCleaner.Test
             Assert.Equal("=> Cleaned: 28", output);
 
         }
+
+        [Fact]
+        public void RunRobotWithSimpleSetCommmandInitialPositionNotZeroShouldRetunCleanedPosition()
+        {
+            _inputFactory.AddCommand("2");
+            _inputFactory.AddCommand("10 22");
+            _inputFactory.AddCommand("E 2");
+            _inputFactory.AddCommand("N 1");
+
+            var commandSet = _inputFactory.GetCommandSet();
+            IRobotCleaner cleaner = new RobotCleanerAlgorithm();
+            IReportGenarator reportGenarator = new ReportGenarator(cleaner);
+            var robot = new Robot(commandSet, reportGenarator, cleaner,
+                new Coordinate(10000, 10000), new Coordinate(-10000, -10000));
+            robot.ExecuteCommand();
+
+            var output = robot.Print();
+
+            Assert.Equal("=> Cleaned: 4", output);
+
+        }
     }
 }
