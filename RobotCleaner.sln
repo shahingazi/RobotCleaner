@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotCleaner", "RobotCleaner\RobotCleaner.csproj", "{C03CCD3C-0433-4EB0-979A-4971BAC57ADF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotCleaner.Logic", "RobotCleaner.Logic\RobotCleaner.Logic.csproj", "{CF7E5164-FD12-4E49-94CE-CB07922987B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotCleaner.Test", "RobotCleaner.Test\RobotCleaner.Test.csproj", "{1524862A-6735-4B6B-877A-FE535B0BD3F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C03CCD3C-0433-4EB0-979A-4971BAC57ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03CCD3C-0433-4EB0-979A-4971BAC57ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03CCD3C-0433-4EB0-979A-4971BAC57ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03CCD3C-0433-4EB0-979A-4971BAC57ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7E5164-FD12-4E49-94CE-CB07922987B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7E5164-FD12-4E49-94CE-CB07922987B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7E5164-FD12-4E49-94CE-CB07922987B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7E5164-FD12-4E49-94CE-CB07922987B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1524862A-6735-4B6B-877A-FE535B0BD3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1524862A-6735-4B6B-877A-FE535B0BD3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1524862A-6735-4B6B-877A-FE535B0BD3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1524862A-6735-4B6B-877A-FE535B0BD3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
